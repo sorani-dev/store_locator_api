@@ -1,0 +1,12 @@
+.leaflet-div-icon {
+  font-family: 'Font AweSome 5 Free';
+  position: relative;
+}
+
+.leaflet-div-icon::after {
+  content: '\f54f';
+  display: inline-block;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 2em;
+}
